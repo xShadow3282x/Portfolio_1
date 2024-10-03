@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e76eb5ad27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark fas" onclick="closmenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>I'm <span>Lakshay</span> from India</h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------about--------- -->
+    <div id="about">
+        <div class="row">
+            <div class="column1">
+                <img src="/images/user.png">
+            </div>
+            <div class="column2">
+                <h1 class="style-set">About Me</h1>
+                <p>Hi, I'm Lakshay, a computer engineering student at Chandigarh University. I have a strong passion for technology and am currently focusing on honing my skills in web development, cybersecurity, and DevOps. I enjoy learning new tools and techniques that allow me to build efficient, scalable, and secure systems. My goal is to become proficient in these areas and contribute to innovative projects in the tech industry. I am constantly exploring new technologies to enhance my expertise and stay ahead in the ever-evolving tech landscape.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End Developer</span><br>Web application development</li>
+                        <li><span>Cyber Security</span><br>Web Security</li>
+                        <li><span>DevOps</span><br>DevOps Tools</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>xyz</span><br>xyx</li>
+                        <li><span>abc</span><br>ABC</li>
+                        <li><span>lmo</span><br>lmo</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018-2019</span><br>Class X from Montessori Cambridge School , Pathankot</li>
+                        <li><span>2020-2021</span><br>Class XII from Montessori Cambridge School , Pathankot</li>
+                        <li><span>2021-2025</span><br>BE CSE from Chandigarh University</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------services------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="style-set">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nobis harum ad iusto inventore voluptate atque vitae laborum doloremque quos tempora porro, maxime molestiae enim. Reiciendis dignissimos nesciunt fuga accusantium.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>Cyber Security</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nobis harum ad iusto inventore voluptate atque vitae laborum doloremque quos tempora porro, maxime molestiae enim. Reiciendis dignissimos nesciunt fuga accusantium.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>DevOps Engineer</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nobis harum ad iusto inventore voluptate atque vitae laborum doloremque quos tempora porro, maxime molestiae enim. Reiciendis dignissimos nesciunt fuga accusantium.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- ------------portfolio------------- -->
+        <div id="portfolio">
+            <h1 class="style-set">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aut eos architecto dolores, expedita porro, ad tempora sapiente facilis placeat neque! Soluta laborum vitae dolorum rerum in voluptates ratione quaerat?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>Health Monitoring System</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aut eos architecto dolores, expedita porro, ad tempora sapiente facilis placeat neque! Soluta laborum vitae dolorum rerum in voluptates ratione quaerat?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Encryptor</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta aut eos architecto dolores, expedita porro, ad tempora sapiente facilis placeat neque! Soluta laborum vitae dolorum rerum in voluptates ratione quaerat?</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="lol" href="#">See More</a>
+        </div>
+        <!-- --------------contact-------------- -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="style-set">Conatct me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>lakshay3282@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>9622333647</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            
+                        </div>
+                        <a href="/Lakshay_resume_w.pdf" download class="lol lol2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text"name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="lol lol2">Submit</button>
+                        </form>
+                        <span id="msg">
+                            
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright@Lakshay.<i class="fa-solid fa-heart"></i>First Pr</p>
+            </div>
+         </div>
+    <script>
+        var tablinks =document.getElementsByClassName("tab-links")
+        var tabcontents =document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closmenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz4-SQkVgfBhSuQGfwzqnwXya-LLh7nzLrbiddTWQQamAw5A47RbdXAOkKcRoVU_3jGFA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="!Message Sent Succefully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000) 
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
